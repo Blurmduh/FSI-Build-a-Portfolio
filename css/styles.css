@@ -1,14 +1,31 @@
 body {
-    background-color: rgb(212, 89, 89);
+    background-color: rgb(18, 103, 38);
 }
 
 
 
-.info {
-    font-family: monospace;
-    position: absolute;
-    line-height: 20px;
-    font-size: 14px;
-    left: 20px;
-    top: 20px;
+img {
+    border: 5px solid rgb(64, 212, 88);
   }
+
+h1 {
+    font-family: "Arial", sans-serif;
+    color: rgb(212, 221, 228);
+    size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 10px solid green;
+    
+}
+.about-paragraph {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(226, 180, 43);
+    align-items: center;
+    background-color: black;
+}
+a {
+    cursor: pointer;
+}
